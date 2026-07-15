@@ -3,8 +3,8 @@ import experience from "./ExperienceData";
 
 function Experience() {
   return (
-    <section className="bg-black px-16 py-20 flex flex-col items-center min-h-screen">
-      <h2 className="text-5xl font-bold text-white mb-12 text-center">
+    <section className="bg-black px-6 md:px-16 py-16 md:py-20 flex flex-col items-center min-h-screen">
+      <h2 className="text-4xl md:text-5xl font-bold text-white mb-12 text-center">
         Experience & Education
       </h2>
 

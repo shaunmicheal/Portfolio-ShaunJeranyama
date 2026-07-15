@@ -1,12 +1,11 @@
 const projects = [
   {
     id: 1,
-    name: "To-Do List App",
-    image: "/src/assets/projectPics/ToDo.png",
-    languages: ["HTML", "CSS", "JavaScript"],
+    name: "Bean & Brew Blog Campaign",
+    image: "/src/assets/projectPics/Blog Campaign.png",
+    languages: ["Canva"],
     link: "",
   },
-
   {
     id: 2,
     name: "Team Expense Tracker",
@@ -19,6 +18,13 @@ const projects = [
     name: "Food Website",
     image: "/src/assets/projectPics/BeanandBrew.png",
     languages: ["React", "Tailwind CSS"],
+    link: "",
+  },
+  {
+    id: 4,
+    name: "To-Do List App",
+    image: "/src/assets/projectPics/ToDo.png",
+    languages: ["HTML", "CSS", "JavaScript"],
     link: "",
   },
 ];

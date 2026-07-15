@@ -9,6 +9,22 @@ const experience = [
   },
   {
     id: 2,
+    title: "UI/UX Designer",
+    place: "Design Crash Course",
+    duration: "April 2026",
+    description:
+      "Completed a crash course covering UX/UI design and product design fundamentals, including user research, wireframing, and prototyping.",
+  },
+  {
+    id: 3,
+    title: "FixMate - Product Design",
+    place: "Personal Project",
+    duration: "April 2026",
+    description:
+      "Designed a mobile platform concept connecting customers with mechanics and electricians, using Figma to learn wireframing and interactive prototyping.",
+  },
+  {
+    id: 4,
     title: "Deep Learning IndabaX Zimbabwe",
     place: "Arrupe Jesuit University, Harare",
     duration: "2026",
@@ -16,7 +32,7 @@ const experience = [
       "Attended sessions on AI and deep learning, connecting with Zimbabwe's growing tech and AI community.",
   },
   {
-    id: 3,
+    id: 5,
     title: "REA Attachment",
     place: "REA",
     duration: "2025",

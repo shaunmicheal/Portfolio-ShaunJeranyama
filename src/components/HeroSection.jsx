@@ -4,14 +4,16 @@ import Resume from "../assets/documents/Shaun Resume.pdf";
 
 function HeroSection() {
   return (
-    <section className="bg-black flex items-center justify-between px-16 py-20">
-      <div className="flex flex-col gap-4 max-w-xl">
-        <p className="text-white text-xl font-semibold">
+    <section className="bg-black flex flex-col md:flex-row items-center justify-between gap-12 px-6 md:px-16 py-16 md:py-20">
+      <div className="flex flex-col gap-4 max-w-xl text-center md:text-left items-center md:items-start m-5 p-5">
+        <p className="text-white text-lg md:text-xl font-semibold">
           HELLO <br /> <br />
-          <span className="text-purple-500 text-5xl font-bold">I'M SHAUN</span>
+          <span className="text-purple-500 text-4xl md:text-5xl font-bold">
+            I'M SHAUN
+          </span>
         </p>
 
-        <h1 className="text-4xl font-bold text-white leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight">
           Software Engineer & Web Developer
         </h1>
 
@@ -20,7 +22,7 @@ function HeroSection() {
           applications that help brands grow
         </p>
 
-        <div className="flex gap-4 items-center">
+        <div className="flex flex-wrap gap-4 items-center justify-center md:justify-start">
           <Link
             to="/projects"
             className="bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-500 transition cursor-pointer"
@@ -43,7 +45,7 @@ function HeroSection() {
         <img
           src={MyPic}
           alt="Shaun Jeranyama"
-          className="relative w-96 object-contain
+          className="relative w-64 md:w-96 object-contain p-5 m-5
       [mask-image:radial-gradient(ellipse_60%_70%_at_center,black_60%,transparent_100%)]
       [-webkit-mask-image:radial-gradient(ellipse_60%_70%_at_center,black_60%,transparent_100%)]"
         />
