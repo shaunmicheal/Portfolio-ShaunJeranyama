@@ -1,3 +1,12 @@
+import {
+  FaEnvelope,
+  FaLinkedin,
+  FaGithub,
+  FaTwitter,
+  FaInstagram,
+  FaFacebook,
+} from "react-icons/fa";
+
 function Footer() {
   return (
     <footer className="bg-black border-t border-zinc-800 px-6 md:px-16 py-12">
@@ -6,25 +15,25 @@ function Footer() {
           <h3 className="text-white font-bold mb-2">Links</h3>
           <a
             href="mailto:shaunjeranyama@gmail.com"
-            className="text-gray-400 hover:text-purple-400 transition"
+            className="flex items-center gap-2 text-gray-400 hover:text-purple-400 transition"
           >
-            Email
+            <FaEnvelope /> Email
           </a>
           <a
             href="https://www.linkedin.com/in/shaun-takunda-jeranyama-1b07042a6"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-400 hover:text-purple-400 transition"
+            className="flex items-center gap-2 text-gray-400 hover:text-purple-400 transition"
           >
-            LinkedIn
+            <FaLinkedin /> LinkedIn
           </a>
           <a
             href="https://github.com/shaunmicheal"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-400 hover:text-purple-400 transition"
+            className="flex items-center gap-2 text-gray-400 hover:text-purple-400 transition"
           >
-            GitHub
+            <FaGithub /> GitHub
           </a>
         </div>
 
@@ -34,25 +43,25 @@ function Footer() {
             href="https://twitter.com/YOUR-TWITTER"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-400 hover:text-purple-400 transition"
+            className="flex items-center gap-2 text-gray-400 hover:text-purple-400 transition"
           >
-            Twitter
+            <FaTwitter /> Twitter
           </a>
           <a
             href="https://www.instagram.com/shaunchimaz?utm_source=qr&igsh=MXNoMWkwdGI5ZHZ4dQ=="
             target="_blank"
             rel="noreferrer"
-            className="text-gray-400 hover:text-purple-400 transition"
+            className="flex items-center gap-2 text-gray-400 hover:text-purple-400 transition"
           >
-            Instagram
+            <FaInstagram /> Instagram
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=100065155573077&mibextid=rS40aB7S9Ucbxw6v"
             target="_blank"
             rel="noreferrer"
-            className="text-gray-400 hover:text-purple-400 transition"
+            className="flex items-center gap-2 text-gray-400 hover:text-purple-400 transition"
           >
-            Facebook
+            <FaFacebook /> Facebook
           </a>
         </div>
 
